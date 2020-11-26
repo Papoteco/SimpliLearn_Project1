@@ -6,3 +6,14 @@ def greet(name, msg="Good Morning!"):
 	it defaults to 'Good Morning!'"""
 
 	print("Hello", name + ', ' + msg)
+
+print("Enter your name:")
+n = input()
+print("Message:")
+m = input()
+
+if m == '':
+	greet(n)
+else:
+	greet(n, m)
+
